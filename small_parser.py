@@ -1,11 +1,19 @@
 #!/usr/bin/python3
 
 OUTPUT_FORMAT = '- \"{} -> {}\"\n'
+DEFAULT_PL_FILE = 'radio-main.m3u'
+DEFAULT_YAML_NAME = 'results.yaml'
 
-def parse_pl_fromdisk(fname='radio-main.m3u'):
+
+def parse_pl_fromdisk(fname):
     file = open(fname, 'r')
     playlist = file.read()
     return playlist
+
+
+def dump_str_todisk(fname, strdump):
+    with open(fname, 'w') as f:
+        f.write(strdump)
 
 
 def prepare_pl(playlist_string):
@@ -42,7 +50,8 @@ def dump_yaml(playlist_body):
 
 
 if __name__== "__main__":
-    raw_pl = parse_pl_fromdisk()
+    raw_pl = parse_pl_fromdisk(DEFAULT_PL_FILE)
     cooked_pl = prepare_pl(raw_pl)
     result = dump_yaml(cooked_pl)
     print(result)
+    dump_str_todisk(DEFAULT_YAML_NAME, result)
