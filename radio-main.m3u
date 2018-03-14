@@ -1,19 +1,22 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="Dance Dance",1.FM :: Dance One (www.1.fm)
+#EXTINF:-1 group-title="Dance Dance",1.FM :: Dance One [ www.1.fm ]
 http://185.33.21.112:80/dance_128
 
-#EXTINF:-1 group-title="Dubstep",1.FM :: Dubstep Forward Radio (www.1.fm)
+#EXTINF:-1 group-title="Dubstep",1.FM :: Dubstep Forward Radio [ www.1.fm ]
 http://strm112.1.fm/dubstep_mobile_mp3
 
-#EXTINF:-1,Uturn :: Drum and Bass (www.uturnradio.com)
+#EXTINF:-1,Uturn :: Drum and Bass [ www.uturnradio.com ]
 http://69-30-215-222.caramania.net:80/drum_and_bass
 
-#EXTINF:-1,Uturn :: Dubstep (www.uturnradio.com)
+#EXTINF:-1,Uturn :: Dubstep [ www.uturnradio.com ]
 http://69-30-215-222.caramania.net:80/dubstep
 
-#EXTINF:-1,Uturn :: Electro House (www.uturnradio.com)
+#EXTINF:-1,Uturn :: Electro House [ www.uturnradio.com ]
 http://69-30-215-222.caramania.net:80/electro_house
 
-#EXTINF:-1,BASSDRIVE :: Bassdrive (http://www.bassdrive.com)
+#EXTINF:-1,BASSDRIVE :: Bassdrive [ http://www.bassdrive.com ]
 http://shouthost.com.20.streams.bassdrive.com:8200/
+
+#EXTINF:-1,Noisefm :: NoiseFM [ http://noisefm.ru ]
+http://noisefm.ru:8000/play_256
