@@ -20,3 +20,6 @@ http://shouthost.com.20.streams.bassdrive.com:8200/
 
 #EXTINF:-1,Noisefm :: NoiseFM [ http://noisefm.ru ]
 http://noisefm.ru:8000/play_256
+
+#EXTINF:-1,1.FM :: Otto's Baroque Music [ www.1.fm ]
+http://strm112.1.fm/baroque_mobile_mp3
